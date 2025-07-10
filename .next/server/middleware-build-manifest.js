@@ -14,10 +14,15 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/RepairRestoration": [
+    "/Repair": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/RepairRestoration.js"
+      "static/chunks/pages/Repair.js"
+    ],
+    "/Senior": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Senior.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
@@ -28,11 +33,6 @@ self.__BUILD_MANIFEST = {
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/contact": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/contact.js"
     ]
   },
   "ampFirstPages": []

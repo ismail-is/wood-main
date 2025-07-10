@@ -227,7 +227,7 @@ export const sliderProps = {
         breakpoint: 767,
         settings: {
           arrows: false,
-          slidesToShow: 1,
+          slidesToShow: 4,
         },
       },
     ],

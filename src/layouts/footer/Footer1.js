@@ -74,12 +74,15 @@ const Footer1 = () => {
                 <h4 className="widget-title">Get In Touch</h4>
                 <div className="widget-content">
                   <ul className="info-list">
-                    <li>Saudi Arabia</li>
+                    <li> 3754 Sulaiman Al shalash, Saleh Al Husaini
+Street, PO No : 32435, Dammam, K.S.A
+</li>
                     <li>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:info@woodprism.com">info@woodprism.com
+</a>
                     </li>
                     <li>
-                      <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                      <a href="tel:+966138111150">+966 13 811 1150</a>
                     </li>
                   </ul>
                 </div>
@@ -99,7 +102,7 @@ const Footer1 = () => {
                       <a href="about">About</a>
                     </li>
                     <li>
-                      <a href="service">Service</a>
+                      <a href="RepairRestoration">Repair & Restoration</a>
                     </li>
                     <li>
                       <a href="gallery">Gallery</a>

@@ -1758,7 +1758,7 @@ button {
   width: 835px;
   height: 835px;
   border-radius: 50%;
-  background-color:rgb(103 70 47 / 49%);
+  background-color: rgb(103 70 47 / 49%);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .hero-wrapper-two .single-slider .bgc-circle {
@@ -6876,11 +6876,11 @@ ul.slick-dots li.slick-active {
   height: 100%;
   border-radius: 0px 40px 40px 0px;
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .about-bg-section .about-bg {
     display: none;
   }
-}
+} */
 
 .choose-bg-section {
   background-attachment: fixed;

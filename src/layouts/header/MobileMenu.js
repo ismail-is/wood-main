@@ -104,10 +104,100 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </Link>
                   </li>
                   <li className="menu-item">
-                    <Link legacyBehavior href="service">
-                      Service
+                    <Link legacyBehavior href="Repair & Restoration">
+                   Repair & Restoration
                     </Link>
                   </li>
+
+<li className="menu-item has-children">
+                    <a href="#">
+                            Service
+                      <span
+                        className="dd-trigger"
+                        onClick={() => active("home")}
+                      >
+                        <i className="far fa-angle-down" />
+                      </span>
+                    </a>
+                    <ul className="sub-menu" style={activeSubMenu("home")} >
+                      <li >
+                        <Link legacyBehavior href="Senior" >
+              Senior & Manager Accommodation
+
+              </Link>
+                      </li>
+                      <li>
+                        <Link legacyBehavior href="staff" >
+              Staff Accommodation
+              </Link>
+                      </li>
+                      <li>
+                          <Link legacyBehavior href="Labor">
+            Labor Accommodation
+              </Link>
+                      </li>
+                      <li>
+                            <Link legacyBehavior href="Labor">
+            Labor Accommodation
+              </Link>
+                      </li>
+                      <li>
+                             <Link legacyBehavior href="Office">
+            Office Furniture
+
+              </Link>
+                      </li>
+                      <li>
+                               <Link legacyBehavior href="Hotel">
+            Hotel Furniture
+
+              </Link>
+                      </li>
+                      <li>
+                               <Link legacyBehavior href="Customized">
+            Customized Work
+
+              </Link>
+                      </li>
+                       <li>
+              <Link legacyBehavior href="Fire">
+            Fire Retardant Furniture and Fabrics
+
+              </Link>
+            </li>
+              <li>
+              <Link legacyBehavior href="Repair">
+            Repair & Restoration
+
+              </Link>
+            </li>
+                    </ul>
+                  </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+              
+
+            
+
+           
+          
                   <li className="menu-item">
                     <Link legacyBehavior href="gallery">
                       Gallery

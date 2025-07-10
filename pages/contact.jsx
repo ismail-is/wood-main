@@ -20,7 +20,9 @@ const Contact = () => {
                   </div>
                   <div className="info">
                     <span className="title">Location</span>
-                    <h6>Saudi Arabia</h6>
+                    <h6> 3754 Sulaiman Al shalash, Saleh Al Husaini
+Street, PO No : 32435, Dammam, K.S.A
+</h6>
                   </div>
                 </div>
               </div>
@@ -33,11 +35,9 @@ const Contact = () => {
                   <div className="info">
                     <span className="title">Email Address</span>
                     <h6>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:info@woodprism.com">info@woodprism.com</a>
                     </h6>
-                    <h6>
-                      <a href="mailto:infogarden.net">info.net</a>
-                    </h6>
+                  
                   </div>
                 </div>
               </div>
@@ -50,7 +50,8 @@ const Contact = () => {
                   <div className="info">
                     <span className="title">Phone No</span>
                     <h6>
-                      <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                      <a href="tel:+966138111150">+966 13 811 1150
+</a>
                     </h6>
                   </div>
                 </div>

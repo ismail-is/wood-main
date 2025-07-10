@@ -88,71 +88,51 @@ Furniture Fabrication & Reconditioning</h4>
 
 
 {/* section 2 */}
- <section className="about-bg-section">
-        {/*====== About BG ======*/}
-        <div
-          className="about-bg bg_cover wow fadeInLeft"
-          style={{ backgroundImage: "url(assets/images/allimg/home2/home2.webp)" }}
-        />
-        <div className="container">
-          <div className="row align-items-center justify-content-end">
-            <div className="col-lg-6">
-              {/*====== About Content Box ======*/}
-              <div className="about-two_content-box pb-80 wow fadeInRight">
-                <div className="section-title">
-                  <div className="section-title mb-50">
-                    <span className="sub-title">
-                      {/* <i className="flaticon-plant" /> */}
-                      About Us
-                    </span>
-                    <h2>Furniture Fabrication & Reconditioning </h2>
+ <section className="about-section">
+        <div className="container-fluid">
+          {/*=== About Wrapper ===*/}
+          <div className="about-wrapper gray-bg wow fadeInUp">
+            <div className="container">
+              <div className="row align-items-xl-center">
+                <div className="col-xl-5 col-lg-12">
+                  {/*=== About Image Box ===*/}
+                  <div className="about-two_image-box wow fadeInLeft">
+                    <img src="/assets/images/allimg/home2/home2.webp" alt style={{height:'100%'}}/>
                   </div>
-                  <p className="mb-45">
-                   Wood Prism Factory is dealing with various aspects of furniture. We are specialized in staff and labor Accommodation furniture. We are one of the Largest stock holder and distributer of the furniture in the Eastern Province.
-Our own fabrication shops are facilitating us to deliver the customer with the high quality customized furniture for their accommodation needs. We are serving leading Aramco Projects, Sabin Project Sites,
-MNCs, Government Sector clients, Luxury Compounds and Hotels. Wood Prism has marked itself as the most trusted brand as a retailer, wholesaler, distributor and service provider in the  Kingdom. Our specialized team enables to provide on time service and delivery throughout the Kingdom
-                  </p>
-                  {/* <div className="about-inner-content d-flex justify-content-between">
-                    <div className="inner-content">
-                      <ul className="check-style-one mb-45">
-                        <li>
-                          <i className="far fa-check" />
-                          We’re Experience Gardening
-                        </li>
-                        <li>
-                          <i className="far fa-check" />
-                          Awards Winning &amp; Expert Team Member
-                        </li>
-                      </ul>
-                      <Link legacyBehavior href="/about">
-                        <a className="main-btn primary-btn">Learn More Us</a>
-                      </Link>
+                </div>
+                <div className="col-xl-7 col-lg-12">
+                  {/*=== About Content Box ===*/}
+                  <div className="about-three_content-box pl-lg-70 wow fadeInRight">
+                    {/*=== Section Title ===*/}
+                    <div className="section-title  wow fadeInUp">
+                      <span className="sub-title">
+                        {/* <i className="flaticon-plant" /> */}
+                        About Us
+                      </span>
+                      <h2>Furniture Fabrication & Reconditioning</h2>
                     </div>
-                    <div className="experience-box-two">
-                      <h2 className="number">
-                        <Counter end={25} />+
-                      </h2>
-                      <h6>Years Of Experience</h6>
-                      <Link legacyBehavior href="/about">
-                        <a className="icon-btn">
-                          <i className="far fa-arrow-right" />
-                        </a>
-                      </Link>
-                    </div>
-                  </div> */}
+                    <p className="mb-40 wow fadeInDown">
+                     Wood Prism Factory is dealing with various aspects of furniture. We are specialized in staff and labor Accommodation furniture. We are one of the Largest stock holder and distributer of the furniture in the Eastern Province. Our own fabrication shops are facilitating us to deliver the customer with the high quality customized furniture for their accommodation needs. We are serving leading Aramco Projects, Sabin Project Sites, MNCs, Government Sector clients, Luxury Compounds and Hotels. Wood Prism has marked itself as the most trusted brand as a retailer, wholesaler, distributor and service provider in the Kingdom. Our specialized team enables to provide on time service and delivery throughout the Kingdom
+                    </p>
+                    
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      {/* start */}
+      
+      {/* start */}
 {/* section 2 */}
 
 
 
 
 {/* section 3 */}
-  <section className="skills-section pt-100 pb-50">
+  <section className="skills-section pt-10 pb-50">
         <div className="container">
           <div className="row align-items-lg-center">
             <div className="col-xl-6 col-lg-12">
@@ -251,7 +231,7 @@ kingdom.
                   src="assets/images/allimg/home/2030.png"
                   className="skill-img-two"
                   alt="Skill Image"
-                  style={{height:'70%',width:'70%'}}
+                  
                 />
                     {/* <h5>Gadden</h5> */}
                   </div>
@@ -451,9 +431,9 @@ kingdom.
             </div>
           </div>
           <div className="row">
-            <div className="col-xl-4 col-lg-6 col-sm-12">
+           <div className="col-xl-4 col-lg-6 col-sm-12">
               {/*====== Service Item ======*/}
-                <Link legacyBehavior href="/Senior">
+                <Link legacyBehavior href="/Repair">
               <div
                 className="single-service-item mb-30 wow fadeInUp"
                 data-wow-delay=".2s"
@@ -466,19 +446,19 @@ kingdom.
                     {/* <i className="flaticon-agriculture" /> */}
                   </div>
                   <h4 className="title mb-4" >
-                    <Link legacyBehavior href="/Senior">
-                      <a> Senior & Manager Accommodatin</a>
+                    <Link legacyBehavior href="/Repair">
+                      <a> Repair & Restoration</a>
                     </Link>
                   </h4>
                 </div>
                 <div className="service-img">
-                  <Link legacyBehavior href="/Senior">
+                  <Link legacyBehavior href="/Repair">
                     <a className="icon-btn">
                       <i className="far fa-plus" />
                     </a>
                   </Link>
                   <img
-                    src="assets/images/allimg/home2/1.webp"
+                    src="assets/images/allimg/home2/8.webp"
                     alt="Service Image"
                   />
                 </div>
@@ -707,9 +687,9 @@ kingdom.
 
 
 
-             <div className="col-xl-4 col-lg-6 col-sm-12">
+           <div className="col-xl-4 col-lg-6 col-sm-12">
               {/*====== Service Item ======*/}
-                <Link legacyBehavior href="/Repair">
+                <Link legacyBehavior href="/Senior">
               <div
                 className="single-service-item mb-30 wow fadeInUp"
                 data-wow-delay=".2s"
@@ -722,25 +702,26 @@ kingdom.
                     {/* <i className="flaticon-agriculture" /> */}
                   </div>
                   <h4 className="title mb-4" >
-                    <Link legacyBehavior href="/Repair">
-                      <a> Repair & Restoration</a>
+                    <Link legacyBehavior href="/Senior">
+                      <a> Senior & Manager Accommodatin</a>
                     </Link>
                   </h4>
                 </div>
                 <div className="service-img">
-                  <Link legacyBehavior href="/Repair">
+                  <Link legacyBehavior href="/Senior">
                     <a className="icon-btn">
                       <i className="far fa-plus" />
                     </a>
                   </Link>
                   <img
-                    src="assets/images/allimg/home2/8.webp"
+                    src="assets/images/allimg/home2/1.webp"
                     alt="Service Image"
                   />
                 </div>
               </div>
               </Link>
             </div>
+
 
 
 
