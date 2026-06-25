@@ -1,5 +1,6 @@
 import Counter from "@/src/components/Counter";
 import Partners from "@/src/components/Partners";
+import HeroVideo from "@/src/components/HeroVideo";
 import Layout from "@/src/layouts/Layout";
 import { sliderProps } from "@/src/sliderProps";
 import Link from "next/link";
@@ -9,81 +10,7 @@ const Index = () => {
   return (
     <Layout header={3} footer={1}>
       {/*====== Start Banner Section ======*/}
-    <section className="banner-section">
-        {/*====== Hero Wrapper One ======*/}
-        <div className="hero-wrapper-two">
-          {/*====== Hero Slider ======*/}
-          <Slider {...sliderProps.heroOne} className="hero-slider-one">
-            {/*====== Single Slider ======*/}
-            <div className="single-slider">
-              <div
-                className="image-layer bg_cover"
-                style={{
-                  backgroundImage:
-                    "url(assets/images/allimg/home2/Banner1.webp)",
-                }}
-              />
-              <div className="bgc-circle" data-animation="fadeInLeft"  />
-              <div className="container">
-                <div className="row align-items-center">
-                  <div className="col-xl-6 col-lg-8">
-                    {/*====== Hero Content ======*/}
-                    <div className="hero-content">
-                      {/* <span
-                        className="sub-title"
-                        data-animation="fadeInUp"
-                        data-delay=".34"
-                      >
-                        Beautiful Gardening
-                      </span> */}
-                      <h1 data-animation="fadeInDown" data-delay=".5s">
-                  Feel The
- Fine Touch
-
-                      </h1>
-                      
-                      <h4 style={{color:'white'}}> 
-Furniture Fabrication & Reconditioning</h4>
-<br/>
-                      <div
-                        className="hero-button mb-30"
-                        data-animation="fadeInDown"
-                        data-delay=".6s"
-                      >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn golden-btn mb-10">
-                            Explore More
-                          </a>
-                        </Link>
-                        <Link legacyBehavior href="/contact">
-                          <a className="main-btn filled-btn filled-white mb-10">
-                           Contact Us 
-                          </a>
-                        </Link>
-                      </div>
-                     
-                    </div>
-                  </div>
-                  {/* <div className="col-xl-6 col-lg-4">
-                    <div className="hero-play float-lg-right">
-                      <a
-                        href="https://www.youtube.com/watch?v=1OgdblydUq0"
-                        className="video-popup"
-                      >
-                        <i className="fas fa-play" />
-                      </a>
-                    </div>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-            {/*====== Single Slider ======*/}
-          
-            {/*====== Single Slider ======*/}
-           
-          </Slider>
-        </div>
-      </section>
+      <HeroVideo />
       {/*====== End Banner Section ======*/}
 
 
@@ -97,7 +24,7 @@ Furniture Fabrication & Reconditioning</h4>
                 <div className="col-xl-5 col-lg-12">
                   {/*=== About Image Box ===*/}
                   <div className="about-two_image-box wow fadeInLeft">
-                    <img src="/assets/images/allimg/home2/home2.webp" alt style={{height:'100%'}}/>
+                    <img src="/assets/images/allimg/Image.webp" alt style={{height:'100%'}}/>
                   </div>
                 </div>
                 <div className="col-xl-7 col-lg-12">
@@ -760,8 +687,7 @@ kingdom.
 
 
 {/* section 6 */}
-  <section className="about-bg-section">
-        {/*====== About BG ======*/}
+  {/* <section className="about-bg-section">
         <div
           className="about-bg bg_cover wow fadeInLeft"
           style={{ backgroundImage: "url(assets/images/allimg/home2/home5.webp)" }}
@@ -769,13 +695,10 @@ kingdom.
         <div className="container">
           <div className="row align-items-center justify-content-end">
             <div className="col-lg-6">
-              {/*====== About Content Box ======*/}
               <div className="about-two_content-box pb-80 wow fadeInRight">
                 <div className="section-title">
                   <div className="section-title mb-50">
                     <span className="sub-title">
-                      {/* <i className="flaticon-plant" />
-                      About Gardening */}
                     </span>
                     <h2>Collaborative Partnership</h2>
                   </div>
@@ -835,31 +758,13 @@ needs of our clients
                         <a className="main-btn primary-btn">Learn More Us</a>
                       </Link>
                     </div>
-                  {/* <div className="about-inner-content d-flex justify-content-between">
-                    <div className="inner-content">
-                      <ul className="check-style-one mb-45">
-                        <li>
-                          <i className="far fa-check" />
-                          Salah Bin-Shihon Trading Establishment in Dammam, Faizaliah
-
-                        </li>
-                        <li>
-                          <i className="far fa-check" />
-                          Awards Winning &amp; Expert Team Member
-                        </li>
-                      </ul>
-                      <Link legacyBehavior href="/about">
-                        <a className="main-btn primary-btn">Learn More Us</a>
-                      </Link>
-                    </div>
-                   
-                  </div> */}
+                 
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 {/* section 6 */}
 
 
@@ -1140,14 +1045,13 @@ needs of our clients
                   News &amp; Blog */}
                 </span>
                 <h2>Factories Across the Saudi Arabia</h2>
-                  <a>We have affiliated furniture factories that deals with the designing, fabrication, processing and preparation of furniture such as office furniture, accommodation furniture, metal furniture, upholstery products.
-</a> 
+                  {/* <a>We have affiliated furniture factories that deals with the designing, fabrication, processing and preparation of furniture such as office furniture, accommodation furniture, metal furniture, upholstery products.
+</a>  */}
               </div>
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-xl-4 col-md-6 col-sm-12">
-              {/*====== Single Blog Post  ======*/}
+            {/* <div className="col-xl-4 col-md-6 col-sm-12">
               <div
                 className="single-blog-post-two mb-40 wow wow fadeInUp"
                 data-wow-delay=".2s"
@@ -1174,7 +1078,7 @@ needs of our clients
                 </div>
                 
               </div>
-            </div>
+            </div> */}
 
               <div className="col-xl-4 col-md-6 col-sm-12">
               {/*====== Single Blog Post  ======*/}
@@ -1189,10 +1093,10 @@ needs of our clients
                 </div>
                 <div className="entry-content">
                    <h4 className="entry-title">
-                      <a>Woodprism Workshop
+                      <a>Woodprism factory
 </a>
                   </h4>
-                  <div className="post-meta">
+                  {/* <div className="post-meta">
                     <span className="date">
                         <a>Place: Dammam | Area: 600 SQM
  <br/>
@@ -1201,7 +1105,7 @@ needs of our clients
 </a>
                     </span>
                 
-                  </div>
+                  </div> */}
                  
                  
                 </div>
@@ -1211,8 +1115,7 @@ needs of our clients
 
 
 
-              <div className="col-xl-4 col-md-6 col-sm-12">
-              {/*====== Single Blog Post  ======*/}
+              {/* <div className="col-xl-4 col-md-6 col-sm-12">
               <div
                 className="single-blog-post-two mb-40 wow wow fadeInUp"
                 data-wow-delay=".2s"
@@ -1241,12 +1144,11 @@ needs of our clients
                 </div>
                 
               </div>
-            </div>
+            </div> */}
 
 
 
-              <div className="col-xl-4 col-md-6 col-sm-12">
-              {/*====== Single Blog Post  ======*/}
+              {/* <div className="col-xl-4 col-md-6 col-sm-12">
               <div
                 className="single-blog-post-two mb-40 wow wow fadeInUp"
                 data-wow-delay=".2s"
@@ -1276,7 +1178,7 @@ needs of our clients
                 </div>
                 
               </div>
-            </div>
+            </div> */}
 
 
 
@@ -1293,10 +1195,10 @@ needs of our clients
                 </div>
                 <div className="entry-content">
                    <h4 className="entry-title">
-                      <a>Dar Al Barjas Company
+                      <a>Factory for Steel Furniture
  </a>
                   </h4>
-                  <div className="post-meta">
+                  {/* <div className="post-meta">
                     <span className="date">
                         <a>Place: Al Shifa Al Badr, Riyadh | Area: 2000 SQM
 <br/>
@@ -1305,7 +1207,7 @@ needs of our clients
 </a>
                     </span>
                 
-                  </div>
+                  </div> */}
                  
                  
                 </div>
@@ -1328,9 +1230,9 @@ needs of our clients
                 </div>
                 <div className="entry-content">
                    <h4 className="entry-title">
-                      <a>Ugaz International Co</a>
+                      <a>Matttress Factory</a>
                   </h4>
-                  <div className="post-meta">
+                  {/* <div className="post-meta">
                     <span className="date">
                         <a>Work: Upholstery Works | SQM: 3000 SQM
 <br/>
@@ -1340,7 +1242,7 @@ needs of our clients
                     </span>
                 
                   </div>
-                 
+                  */}
                  
                 </div>
                 

@@ -74,8 +74,7 @@ const Footer1 = () => {
                 <h4 className="widget-title">Get In Touch</h4>
                 <div className="widget-content">
                   <ul className="info-list">
-                    <li> 3754 Sulaiman Al shalash, Saleh Al Husaini
-Street, PO No : 32435, Dammam, K.S.A
+                    <li> 6949 Al Nadr Ibn Nezar, Sinaiyah Al Fawaziyah Dist., AL KHOBAR, <br/>K.S.A, P O No.: 34627
 </li>
                     <li>
                       <a href="mailto:info@woodprism.com">info@woodprism.com
@@ -254,7 +253,7 @@ Street, PO No : 32435, Dammam, K.S.A
             <div className="col-lg-6">
               {/*====== Copyright Text ======*/}
               <div className="copyright-text">
-             <p>© 2025 Woodprism. Design By <a href="https://mscreation.tech/" target="_blank">M S Creation</a></p>
+             <p>© 2026 Woodprism</p>
               </div>
             </div>
             <div className="col-lg-6">

@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/service": "pages/service.js",
+  "/contact": "pages/contact.js",
   "/": "pages/index.js",
-  "/Senior": "pages/Senior.js",
-  "/Repair": "pages/Repair.js"
+  "/RepairRestoration": "pages/RepairRestoration.js"
 }

@@ -20,8 +20,7 @@ const Contact = () => {
                   </div>
                   <div className="info">
                     <span className="title">Location</span>
-                    <h6> 3754 Sulaiman Al shalash, Saleh Al Husaini
-Street, PO No : 32435, Dammam, K.S.A
+                    <h6> 6949 Al Nadr Ibn Nezar, Sinaiyah Al Fawaziyah Dist., AL KHOBAR, KSA P O No.: 34627
 </h6>
                   </div>
                 </div>
