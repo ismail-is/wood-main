@@ -785,249 +785,46 @@ needs of our clients
             className="projects-slider-four wow fadeInUp"
             data-wow-delay=".2s"
           >
-            <div className="single-project-item-four">
-              <div className="project-img">
-                <img
-                  src="assets/images/allimg/works/1.webp"
-                  alt="Project Image"
-                />
-                <div className="hover-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                    
-                    </h3>
-                  
+            {[...Array(48)].map((_, index) => {
+              const projectTitles = [
+                "Nesma & Partners Contracting Co. LTD",
+                "SHYB2-Denfense Facilities",
+                "Byrne Camp Furniture",
+                "Golden Tulip Hotel",
+                "Larsen and Toubro Accommodation Project",
+                "SATCO Neom Accommodation Project",
+                "Saudi Archirodon Office Al Khobar",
+                "Sendan Residence Hotel Accommodation Furniture",
+                "Yamama Site Office, Ithra"
+              ];
+              const title = projectTitles[index] || `Project ${index + 1}`;
+              return (
+                <div className="single-project-item-four" key={index}>
+                  <div >
+                  {/* <div className="project-img"> */}
+                    <img
+                      src={`assets/images/work/${index + 1}.jpeg`}
+                      alt={`Project Image ${index + 1}`}
+                      style={{ height: '350px', width: '100%', objectFit: 'cover',borderRadius:'20px' }}
+                    />
+                    <div className="hover-content">
+                      <div className="text text-white">
+                        <h3 className="title"></h3>
+                      </div>
+                    </div>
+                    <div className="project-content">
+                      <div className="text text-white">
+                        {/* <h3 className="title">
+                          <Link legacyBehavior href="/gallery">
+                            <a>{title}</a>
+                          </Link>
+                        </h3> */}
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="project-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                      <Link legacyBehavior href="/gallery">
-                        <a>Nesma & Partners Contracting Co. LTD</a>
-                      </Link>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="single-project-item-four">
-              <div className="project-img">
-                <img
-                  src="assets/images/allimg/works/2.webp"
-                  alt="Project Image"
-                />
-                <div className="hover-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                    
-                    </h3>
-                  
-                  </div>
-                </div>
-                <div className="project-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                      <Link legacyBehavior href="/gallery">
-                        <a>SHYB2-Denfense Facilities</a>
-                      </Link>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="single-project-item-four">
-              <div className="project-img">
-                <img
-                  src="assets/images/allimg/works/3.webp"
-                  alt="Project Image"
-                />
-                <div className="hover-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                    
-                    </h3>
-                  
-                  </div>
-                </div>
-                <div className="project-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                      <Link legacyBehavior href="/gallery">
-                        <a>Byrne Camp Furniture</a>
-                      </Link>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-            <div className="single-project-item-four">
-              <div className="project-img">
-                <img
-                  src="assets/images/allimg/works/4.webp"
-                  alt="Project Image"
-                />
-                <div className="hover-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                    
-                    </h3>
-                  
-                  </div>
-                </div>
-                <div className="project-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                      <Link legacyBehavior href="/gallery">
-                        <a>Golden Tulip Hotel</a>
-                      </Link>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-            <div className="single-project-item-four">
-              <div className="project-img">
-                <img
-                  src="assets/images/allimg/works/5.webp"
-                  alt="Project Image"
-                />
-                <div className="hover-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                    
-                    </h3>
-                  
-                  </div>
-                </div>
-                <div className="project-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                      <Link legacyBehavior href="/gallery">
-                        <a>Larsen and Toubro Accommodation Project</a>
-                      </Link>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="single-project-item-four">
-              <div className="project-img">
-                <img
-                  src="assets/images/allimg/works/6.webp"
-                  alt="Project Image"
-                />
-                <div className="hover-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                    
-                    </h3>
-                  
-                  </div>
-                </div>
-                <div className="project-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                      <Link legacyBehavior href="/gallery">
-                        <a>SATCO Neom Accommodation Project</a>
-                      </Link>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="single-project-item-four">
-              <div className="project-img">
-                <img
-                  src="assets/images/allimg/works/7.webp"
-                  alt="Project Image"
-                />
-                <div className="hover-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                    
-                    </h3>
-                  
-                  </div>
-                </div>
-                <div className="project-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                      <Link legacyBehavior href="/gallery">
-                        <a>Saudi Archirodon Office Al Khobar</a>
-                      </Link>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="single-project-item-four">
-              <div className="project-img">
-                <img
-                  src="assets/images/allimg/works/8.webp"
-                  alt="Project Image"
-                />
-                <div className="hover-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                    
-                    </h3>
-                  
-                  </div>
-                </div>
-                <div className="project-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                      <Link legacyBehavior href="/gallery">
-                        <a>Sendan Residence Hotel Accommodation Furniture</a>
-                      </Link>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="single-project-item-four">
-              <div className="project-img">
-                <img
-                  src="assets/images/allimg/works/9.webp"
-                  alt="Project Image"
-                />
-                <div className="hover-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                    
-                    </h3>
-                  
-                  </div>
-                </div>
-                <div className="project-content">
-                  <div className="text text-white">
-                    <h3 className="title">
-                      <Link legacyBehavior href="/gallery">
-                        <a>Yamama Site Office, Ithra</a>
-                      </Link>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
+              );
+            })}
            
           </Slider>
         </div>

@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"pages\\\\gallery.jsx -> @/src/components/isotope/ProjectGridIsotope\":{\"id\":\"pages\\\\gallery.jsx -> @/src/components/isotope/ProjectGridIsotope\",\"files\":[\"static/chunks/src_components_isotope_ProjectGridIsotope_js.js\"]}}"
