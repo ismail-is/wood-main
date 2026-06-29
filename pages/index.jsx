@@ -841,7 +841,7 @@ needs of our clients
                   {/* <i className="flaticon-plant" />
                   News &amp; Blog */}
                 </span>
-                <h2>Factories Across the Saudi Arabia</h2>
+                <h2>Factories Across the <br/>Saudi Arabia</h2>
                   {/* <a>We have affiliated furniture factories that deals with the designing, fabrication, processing and preparation of furniture such as office furniture, accommodation furniture, metal furniture, upholstery products.
 </a>  */}
               </div>
